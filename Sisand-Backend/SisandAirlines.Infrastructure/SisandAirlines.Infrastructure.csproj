@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.5" />
+    <PackageReference Include="Npgsql" Version="9.0.3" />
+    <ProjectReference Include="..\SisandAirlines.Domain\SisandAirlines.Domain.csproj" />
+    <ProjectReference Include="..\SisandAirlines.Application\SisandAirlines.Application.csproj" />
+  </ItemGroup>
+</Project>

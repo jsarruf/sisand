@@ -1,0 +1,26 @@
+# Angular (frontend)
+node_modules/
+dist/
+.angular/
+.env
+
+# .NET (backend)
+bin/
+obj/
+*.pdb
+*.dll
+*.user
+*.suo
+
+# VSCode
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Appsettings sensíveis
+appsettings.*.json
